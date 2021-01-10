@@ -486,11 +486,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bruno\\OneDrive\\Documentos\\Projetos\\TodoList\\TodoList.csproj",
+      "projectUniqueName": "C:\\Users\\bruno\\OneDrive\\Documentos\\Projetos\\BlazorRepo\\Blazor_Course\\TodoList\\TodoList.csproj",
       "projectName": "TodoList",
-      "projectPath": "C:\\Users\\bruno\\OneDrive\\Documentos\\Projetos\\TodoList\\TodoList.csproj",
+      "projectPath": "C:\\Users\\bruno\\OneDrive\\Documentos\\Projetos\\BlazorRepo\\Blazor_Course\\TodoList\\TodoList.csproj",
       "packagesPath": "C:\\Users\\bruno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bruno\\OneDrive\\Documentos\\Projetos\\TodoList\\obj\\",
+      "outputPath": "C:\\Users\\bruno\\OneDrive\\Documentos\\Projetos\\BlazorRepo\\Blazor_Course\\TodoList\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
