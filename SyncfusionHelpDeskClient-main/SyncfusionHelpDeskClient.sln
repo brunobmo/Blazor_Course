@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30028.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SyncfusionHelpDeskClient.Server", "Server\SyncfusionHelpDeskClient.Server.csproj", "{A5122C54-0030-41D8-AD89-5D449F2F961E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SyncfusionHelpDeskClient.Client", "Client\SyncfusionHelpDeskClient.Client.csproj", "{CD637317-53D4-4819-ABE8-2654FBC57DD5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SyncfusionHelpDeskClient.Shared", "Shared\SyncfusionHelpDeskClient.Shared.csproj", "{E61B8F9B-3236-40CF-A366-C897BFA55511}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{54299055-7112-405A-A8F6-8A0ED30F7C0E}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		SyncfusionHelpDesk.png = SyncfusionHelpDesk.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5122C54-0030-41D8-AD89-5D449F2F961E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5122C54-0030-41D8-AD89-5D449F2F961E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5122C54-0030-41D8-AD89-5D449F2F961E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5122C54-0030-41D8-AD89-5D449F2F961E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD637317-53D4-4819-ABE8-2654FBC57DD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD637317-53D4-4819-ABE8-2654FBC57DD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD637317-53D4-4819-ABE8-2654FBC57DD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD637317-53D4-4819-ABE8-2654FBC57DD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E61B8F9B-3236-40CF-A366-C897BFA55511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E61B8F9B-3236-40CF-A366-C897BFA55511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E61B8F9B-3236-40CF-A366-C897BFA55511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E61B8F9B-3236-40CF-A366-C897BFA55511}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {380A137B-3BFC-414D-AB8C-49BE04A23DC6}
+	EndGlobalSection
+EndGlobal
