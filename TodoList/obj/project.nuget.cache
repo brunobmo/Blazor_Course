@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2FoRAlQ65dqxUbWpcwjh6tIMIM+5bsrjjoY4fOjScYtA2vk/h84cwA4Bx/7UAlgHMIAVR3a6Z5xhRwA69wmlqA==",
+  "dgSpecHash": "/hs/6dMfVtBu4nRH5u1HhJzazc7AIMavDUEIk5aoT8Ew8EJqo208TrImpiyi2PRNFaj5YvviNluXyE4FFruzbQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bruno\\OneDrive\\Documentos\\Projetos\\TodoList\\TodoList.csproj",
+  "projectFilePath": "C:\\Users\\bruno\\OneDrive\\Documentos\\Projetos\\BlazorRepo\\Blazor_Course\\TodoList\\TodoList.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bruno\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
     "C:\\Users\\bruno\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",

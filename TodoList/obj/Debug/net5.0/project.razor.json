@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\bruno\\OneDrive\\Documentos\\Projetos\\TodoList\\TodoList.csproj",
+  "FilePath": "c:\\Users\\bruno\\OneDrive\\Documentos\\Projetos\\BlazorRepo\\Blazor_Course\\TodoList\\TodoList.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -45,35 +45,35 @@
         }
       },
       {
-        "HashCode": -5857055,
+        "HashCode": -815263454,
         "Kind": "Components.Component",
-        "Name": "TodoList.Pages.FetchData",
+        "Name": "TodoList.Pages.Company",
         "AssemblyName": "TodoList",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "FetchData"
+            "TagName": "Company"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TodoList.Pages.FetchData"
+          "Common.TypeName": "TodoList.Pages.Company"
         }
       },
       {
-        "HashCode": -1217383613,
+        "HashCode": 1677500027,
         "Kind": "Components.Component",
-        "Name": "TodoList.Pages.FetchData",
+        "Name": "TodoList.Pages.Company",
         "AssemblyName": "TodoList",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "TodoList.Pages.FetchData"
+            "TagName": "TodoList.Pages.Company"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TodoList.Pages.FetchData",
+          "Common.TypeName": "TodoList.Pages.Company",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -111,6 +111,39 @@
         }
       },
       {
+        "HashCode": -5857055,
+        "Kind": "Components.Component",
+        "Name": "TodoList.Pages.FetchData",
+        "AssemblyName": "TodoList",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TodoList.Pages.FetchData"
+        }
+      },
+      {
+        "HashCode": -1217383613,
+        "Kind": "Components.Component",
+        "Name": "TodoList.Pages.FetchData",
+        "AssemblyName": "TodoList",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "TodoList.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TodoList.Pages.FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 348501268,
         "Kind": "Components.Component",
         "Name": "TodoList.Pages.Todo",
@@ -144,88 +177,35 @@
         }
       },
       {
-        "HashCode": 1284581302,
+        "HashCode": -1373506023,
         "Kind": "Components.Component",
-        "Name": "TodoList.App",
+        "Name": "TodoList.Shared.NavMenu",
         "AssemblyName": "TodoList",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "NavMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TodoList.App"
+          "Common.TypeName": "TodoList.Shared.NavMenu"
         }
       },
       {
-        "HashCode": -1604431260,
+        "HashCode": 319495479,
         "Kind": "Components.Component",
-        "Name": "TodoList.App",
+        "Name": "TodoList.Shared.NavMenu",
         "AssemblyName": "TodoList",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "TodoList.App"
+            "TagName": "TodoList.Shared.NavMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TodoList.App",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -595709566,
-        "Kind": "Components.Component",
-        "Name": "TodoList.Shared.SurveyPrompt",
-        "AssemblyName": "TodoList",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TodoList.Shared.SurveyPrompt"
-        }
-      },
-      {
-        "HashCode": -469614984,
-        "Kind": "Components.Component",
-        "Name": "TodoList.Shared.SurveyPrompt",
-        "AssemblyName": "TodoList",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "TodoList.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TodoList.Shared.SurveyPrompt",
+          "Common.TypeName": "TodoList.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -326,35 +306,88 @@
         }
       },
       {
-        "HashCode": -1373506023,
+        "HashCode": -595709566,
         "Kind": "Components.Component",
-        "Name": "TodoList.Shared.NavMenu",
+        "Name": "TodoList.Shared.SurveyPrompt",
         "AssemblyName": "TodoList",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TodoList.Shared.NavMenu"
+          "Common.TypeName": "TodoList.Shared.SurveyPrompt"
         }
       },
       {
-        "HashCode": 319495479,
+        "HashCode": -469614984,
         "Kind": "Components.Component",
-        "Name": "TodoList.Shared.NavMenu",
+        "Name": "TodoList.Shared.SurveyPrompt",
         "AssemblyName": "TodoList",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "TodoList.Shared.NavMenu"
+            "TagName": "TodoList.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TodoList.Shared.NavMenu",
+          "Common.TypeName": "TodoList.Shared.SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1284581302,
+        "Kind": "Components.Component",
+        "Name": "TodoList.App",
+        "AssemblyName": "TodoList",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TodoList.App"
+        }
+      },
+      {
+        "HashCode": -1604431260,
+        "Kind": "Components.Component",
+        "Name": "TodoList.App",
+        "AssemblyName": "TodoList",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "TodoList.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TodoList.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -15950,63 +15983,63 @@
   "RootNamespace": "TodoList",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\bruno\\OneDrive\\Documentos\\Projetos\\TodoList\\Pages\\FetchData.razor",
-      "TargetPath": "Pages\\FetchData.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\bruno\\OneDrive\\Documentos\\Projetos\\TodoList\\Pages\\Index.razor",
-      "TargetPath": "Pages\\Index.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\bruno\\OneDrive\\Documentos\\Projetos\\TodoList\\_Imports.razor",
-      "TargetPath": "_Imports.razor",
-      "FileKind": "componentImport"
-    },
-    {
-      "FilePath": "c:\\Users\\bruno\\OneDrive\\Documentos\\Projetos\\TodoList\\Pages\\Todo.razor",
-      "TargetPath": "Pages\\Todo.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\bruno\\OneDrive\\Documentos\\Projetos\\TodoList\\Pages\\Counter.razor",
+      "FilePath": "c:\\Users\\bruno\\OneDrive\\Documentos\\Projetos\\BlazorRepo\\Blazor_Course\\TodoList\\Pages\\Counter.razor",
       "TargetPath": "Pages\\Counter.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\bruno\\OneDrive\\Documentos\\Projetos\\TodoList\\Pages\\Error.cshtml",
-      "TargetPath": "Pages\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\bruno\\OneDrive\\Documentos\\Projetos\\TodoList\\Shared\\NavMenu.razor",
-      "TargetPath": "Shared\\NavMenu.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\bruno\\OneDrive\\Documentos\\Projetos\\TodoList\\Pages\\Company.razor",
+      "FilePath": "c:\\Users\\bruno\\OneDrive\\Documentos\\Projetos\\BlazorRepo\\Blazor_Course\\TodoList\\Pages\\Company.razor",
       "TargetPath": "Pages\\Company.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\bruno\\OneDrive\\Documentos\\Projetos\\TodoList\\App.razor",
-      "TargetPath": "App.razor",
+      "FilePath": "c:\\Users\\bruno\\OneDrive\\Documentos\\Projetos\\BlazorRepo\\Blazor_Course\\TodoList\\Shared\\NavMenu.razor",
+      "TargetPath": "Shared\\NavMenu.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\bruno\\OneDrive\\Documentos\\Projetos\\TodoList\\Shared\\SurveyPrompt.razor",
+      "FilePath": "c:\\Users\\bruno\\OneDrive\\Documentos\\Projetos\\BlazorRepo\\Blazor_Course\\TodoList\\Shared\\MainLayout.razor",
+      "TargetPath": "Shared\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\bruno\\OneDrive\\Documentos\\Projetos\\BlazorRepo\\Blazor_Course\\TodoList\\Shared\\SurveyPrompt.razor",
       "TargetPath": "Shared\\SurveyPrompt.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\bruno\\OneDrive\\Documentos\\Projetos\\TodoList\\Pages\\_Host.cshtml",
+      "FilePath": "c:\\Users\\bruno\\OneDrive\\Documentos\\Projetos\\BlazorRepo\\Blazor_Course\\TodoList\\App.razor",
+      "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\bruno\\OneDrive\\Documentos\\Projetos\\BlazorRepo\\Blazor_Course\\TodoList\\Pages\\_Host.cshtml",
       "TargetPath": "Pages\\_Host.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\bruno\\OneDrive\\Documentos\\Projetos\\TodoList\\Shared\\MainLayout.razor",
-      "TargetPath": "Shared\\MainLayout.razor",
+      "FilePath": "c:\\Users\\bruno\\OneDrive\\Documentos\\Projetos\\BlazorRepo\\Blazor_Course\\TodoList\\Pages\\Index.razor",
+      "TargetPath": "Pages\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\bruno\\OneDrive\\Documentos\\Projetos\\BlazorRepo\\Blazor_Course\\TodoList\\_Imports.razor",
+      "TargetPath": "_Imports.razor",
+      "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "c:\\Users\\bruno\\OneDrive\\Documentos\\Projetos\\BlazorRepo\\Blazor_Course\\TodoList\\Pages\\Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\bruno\\OneDrive\\Documentos\\Projetos\\BlazorRepo\\Blazor_Course\\TodoList\\Pages\\FetchData.razor",
+      "TargetPath": "Pages\\FetchData.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\bruno\\OneDrive\\Documentos\\Projetos\\BlazorRepo\\Blazor_Course\\TodoList\\Pages\\Todo.razor",
+      "TargetPath": "Pages\\Todo.razor",
       "FileKind": "component"
     }
   ],
