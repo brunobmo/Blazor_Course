@@ -1,5 +1,10 @@
 # Blazor_Course
 
+## Projetos desenvolvidos com:
+- .NET core 3.1
+- Visual Studio 2019
+- SQL Server
+
 ## Pasta documentação
 Contém a apresentação realizada e ainda um ebook com informações adicionais.
 
