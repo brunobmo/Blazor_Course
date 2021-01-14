@@ -12,39 +12,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -1086799247,
-        "Kind": "Components.Component",
-        "Name": "TodoList.Pages.Counter",
-        "AssemblyName": "TodoList",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TodoList.Pages.Counter"
-        }
-      },
-      {
-        "HashCode": -1199857162,
-        "Kind": "Components.Component",
-        "Name": "TodoList.Pages.Counter",
-        "AssemblyName": "TodoList",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "TodoList.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TodoList.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -815263454,
         "Kind": "Components.Component",
         "Name": "TodoList.Pages.Company",
@@ -78,35 +45,35 @@
         }
       },
       {
-        "HashCode": -723622470,
+        "HashCode": -1086799247,
         "Kind": "Components.Component",
-        "Name": "TodoList.Pages.Index",
+        "Name": "TodoList.Pages.Counter",
         "AssemblyName": "TodoList",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Index"
+            "TagName": "Counter"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TodoList.Pages.Index"
+          "Common.TypeName": "TodoList.Pages.Counter"
         }
       },
       {
-        "HashCode": -386776446,
+        "HashCode": -1199857162,
         "Kind": "Components.Component",
-        "Name": "TodoList.Pages.Index",
+        "Name": "TodoList.Pages.Counter",
         "AssemblyName": "TodoList",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "TodoList.Pages.Index"
+            "TagName": "TodoList.Pages.Counter"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TodoList.Pages.Index",
+          "Common.TypeName": "TodoList.Pages.Counter",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -144,6 +111,39 @@
         }
       },
       {
+        "HashCode": -723622470,
+        "Kind": "Components.Component",
+        "Name": "TodoList.Pages.Index",
+        "AssemblyName": "TodoList",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TodoList.Pages.Index"
+        }
+      },
+      {
+        "HashCode": -386776446,
+        "Kind": "Components.Component",
+        "Name": "TodoList.Pages.Index",
+        "AssemblyName": "TodoList",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "TodoList.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TodoList.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 348501268,
         "Kind": "Components.Component",
         "Name": "TodoList.Pages.Todo",
@@ -177,35 +177,88 @@
         }
       },
       {
-        "HashCode": -1373506023,
+        "HashCode": 1284581302,
         "Kind": "Components.Component",
-        "Name": "TodoList.Shared.NavMenu",
+        "Name": "TodoList.App",
         "AssemblyName": "TodoList",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TodoList.Shared.NavMenu"
+          "Common.TypeName": "TodoList.App"
         }
       },
       {
-        "HashCode": 319495479,
+        "HashCode": -1604431260,
         "Kind": "Components.Component",
-        "Name": "TodoList.Shared.NavMenu",
+        "Name": "TodoList.App",
         "AssemblyName": "TodoList",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "TodoList.Shared.NavMenu"
+            "TagName": "TodoList.App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TodoList.Shared.NavMenu",
+          "Common.TypeName": "TodoList.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -595709566,
+        "Kind": "Components.Component",
+        "Name": "TodoList.Shared.SurveyPrompt",
+        "AssemblyName": "TodoList",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TodoList.Shared.SurveyPrompt"
+        }
+      },
+      {
+        "HashCode": -469614984,
+        "Kind": "Components.Component",
+        "Name": "TodoList.Shared.SurveyPrompt",
+        "AssemblyName": "TodoList",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "TodoList.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "TodoList.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -306,88 +359,35 @@
         }
       },
       {
-        "HashCode": -595709566,
+        "HashCode": -1373506023,
         "Kind": "Components.Component",
-        "Name": "TodoList.Shared.SurveyPrompt",
+        "Name": "TodoList.Shared.NavMenu",
         "AssemblyName": "TodoList",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
+            "TagName": "NavMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TodoList.Shared.SurveyPrompt"
+          "Common.TypeName": "TodoList.Shared.NavMenu"
         }
       },
       {
-        "HashCode": -469614984,
+        "HashCode": 319495479,
         "Kind": "Components.Component",
-        "Name": "TodoList.Shared.SurveyPrompt",
+        "Name": "TodoList.Shared.NavMenu",
         "AssemblyName": "TodoList",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "TodoList.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
+            "TagName": "TodoList.Shared.NavMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TodoList.Shared.SurveyPrompt",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1284581302,
-        "Kind": "Components.Component",
-        "Name": "TodoList.App",
-        "AssemblyName": "TodoList",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TodoList.App"
-        }
-      },
-      {
-        "HashCode": -1604431260,
-        "Kind": "Components.Component",
-        "Name": "TodoList.App",
-        "AssemblyName": "TodoList",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "TodoList.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "TodoList.App",
+          "Common.TypeName": "TodoList.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
