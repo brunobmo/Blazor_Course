@@ -75,7 +75,6 @@ C:\Users\bruno\OneDrive\Documentos\Projetos\BlazorRepo\Blazor_Course\TodoList\ob
 C:\Users\bruno\OneDrive\Documentos\Projetos\BlazorRepo\Blazor_Course\TodoList\obj\Debug\net5.0\TodoList.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\bruno\OneDrive\Documentos\Projetos\BlazorRepo\Blazor_Course\TodoList\obj\Debug\net5.0\TodoList.RazorComponent.input.cache
 C:\Users\bruno\OneDrive\Documentos\Projetos\BlazorRepo\Blazor_Course\TodoList\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
-C:\Users\bruno\OneDrive\Documentos\Projetos\BlazorRepo\Blazor_Course\TodoList\obj\Debug\net5.0\RazorDeclaration\Pages\Company.razor.g.cs
 C:\Users\bruno\OneDrive\Documentos\Projetos\BlazorRepo\Blazor_Course\TodoList\obj\Debug\net5.0\RazorDeclaration\Pages\Counter.razor.g.cs
 C:\Users\bruno\OneDrive\Documentos\Projetos\BlazorRepo\Blazor_Course\TodoList\obj\Debug\net5.0\RazorDeclaration\Pages\FetchData.razor.g.cs
 C:\Users\bruno\OneDrive\Documentos\Projetos\BlazorRepo\Blazor_Course\TodoList\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
@@ -90,8 +89,6 @@ C:\Users\bruno\OneDrive\Documentos\Projetos\BlazorRepo\Blazor_Course\TodoList\ob
 C:\Users\bruno\OneDrive\Documentos\Projetos\BlazorRepo\Blazor_Course\TodoList\obj\Debug\net5.0\TodoList.pdb
 C:\Users\bruno\OneDrive\Documentos\Projetos\BlazorRepo\Blazor_Course\TodoList\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\bruno\OneDrive\Documentos\Projetos\BlazorRepo\Blazor_Course\TodoList\bin\Debug\net5.0\appsettings.json
-C:\Users\bruno\OneDrive\Documentos\Projetos\BlazorRepo\Blazor_Course\TodoList\bin\Debug\net5.0\DataAcessLibrary\obj\DataAcessLibrary.csproj.nuget.dgspec.json
-C:\Users\bruno\OneDrive\Documentos\Projetos\BlazorRepo\Blazor_Course\TodoList\bin\Debug\net5.0\DataAcessLibrary\obj\project.assets.json
 C:\Users\bruno\OneDrive\Documentos\Projetos\BlazorRepo\Blazor_Course\TodoList\bin\Debug\net5.0\TodoList.StaticWebAssets.xml
 C:\Users\bruno\OneDrive\Documentos\Projetos\BlazorRepo\Blazor_Course\TodoList\bin\Debug\net5.0\TodoList.exe
 C:\Users\bruno\OneDrive\Documentos\Projetos\BlazorRepo\Blazor_Course\TodoList\bin\Debug\net5.0\TodoList.deps.json
@@ -114,7 +111,6 @@ C:\Users\bruno\OneDrive\Documentos\Projetos\BlazorRepo\Blazor_Course\TodoList\ob
 C:\Users\bruno\OneDrive\Documentos\Projetos\BlazorRepo\Blazor_Course\TodoList\obj\Debug\net5.0\TodoList.TagHelpers.output.cache
 C:\Users\bruno\OneDrive\Documentos\Projetos\BlazorRepo\Blazor_Course\TodoList\obj\Debug\net5.0\TodoList.RazorCoreGenerate.cache
 C:\Users\bruno\OneDrive\Documentos\Projetos\BlazorRepo\Blazor_Course\TodoList\obj\Debug\net5.0\Razor\App.razor.g.cs
-C:\Users\bruno\OneDrive\Documentos\Projetos\BlazorRepo\Blazor_Course\TodoList\obj\Debug\net5.0\Razor\Pages\Company.razor.g.cs
 C:\Users\bruno\OneDrive\Documentos\Projetos\BlazorRepo\Blazor_Course\TodoList\obj\Debug\net5.0\Razor\Pages\Counter.razor.g.cs
 C:\Users\bruno\OneDrive\Documentos\Projetos\BlazorRepo\Blazor_Course\TodoList\obj\Debug\net5.0\Razor\Pages\FetchData.razor.g.cs
 C:\Users\bruno\OneDrive\Documentos\Projetos\BlazorRepo\Blazor_Course\TodoList\obj\Debug\net5.0\Razor\Pages\Index.razor.g.cs

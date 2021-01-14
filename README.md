@@ -12,4 +12,6 @@ Contém a apresentação realizada e ainda um ebook com informações adicionais
 
 2. HelpDesk: Exemplo com base de dados (backup na pasta Database) utilizando a Entity Framework. Inclui um exemplo de autenticação utilizador comum e administrador) e um formulário que utiliza componentes third party (neste caso da syncfusion). Na pasta documentação está incluído um ebook que explica o processo.
 
+3. TodoList: Exemplo simples que demonstra um pequena lista de tarefas (sem base de dados) e que permite visualizar como uma tarefa tipicamente implementada recorrendo a javascript pode ser implementada com blazor.
+
     
