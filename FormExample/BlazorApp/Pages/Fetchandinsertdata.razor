@@ -1,0 +1,73 @@
+@page "/fetchandinsertdata"
+@using dataAcess
+@using dataAcess.Models
+@using BlazorApp.Models
+
+@inject IPublicationData _db
+
+<h1>Fetch and Insert Data</h1>
+
+<h4>Insert New Publication</h4>
+<EditForm Model="@newPublication" OnValidSubmit="@InsertPublication">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+    <label for="title">Publication</label>
+    <InputText id="title" name="title" @bind-Value="newPublication.Title" />
+    <label for="year">Year</label>
+    <InputText id="year" name="year" @bind-Value="year" @oninput="@((e) => newPublication.Year = Convert.ToInt32(e.Value))"/>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</EditForm>
+
+<p/>
+<h2>Publications Page</h2>
+
+@if (publication is null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+      <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Year</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var p in publication)
+            {
+                <tr>
+                    <td>@p.Title</td>
+                    <td>@p.Year</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+    @code {
+    private List<PublicationModel> publication;
+
+    private String year;
+    private DisplayPublicationModel newPublication = new DisplayPublicationModel();
+
+    protected override async Task OnInitializedAsync()
+    {
+        publication = await _db.GetPublication();
+    }
+
+    private async Task InsertPublication()
+    {
+        PublicationModel p = new PublicationModel
+        {
+            Title = newPublication.Title,
+            Year = newPublication.Year,
+        };
+
+        await _db.InsertPerson(p);
+
+        publication.Add(p);
+
+        newPublication = new DisplayPublicationModel();
+    }
+}
