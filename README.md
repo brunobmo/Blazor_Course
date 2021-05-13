@@ -19,4 +19,5 @@ Contém a apresentação realizada e ainda um ebook com informações adicionais
 
 3. TodoList: Exemplo simples que demonstra um pequena lista de tarefas (sem base de dados) e que permite visualizar como uma tarefa tipicamente implementada recorrendo a javascript pode ser implementada com blazor.
 
+4. Exemplo de Session Storage com um componente Blazored: https://github.com/Blazored
     
