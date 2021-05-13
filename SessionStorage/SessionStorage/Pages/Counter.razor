@@ -1,0 +1,28 @@
+﻿@page "/counter"
+
+@inject Blazored.SessionStorage.ISessionStorageService sessionStorage
+
+<p>Session Storage: @name</p>
+
+<input type="text" name="name" @bind-value="@name" @bind-value:event="oninput" />
+
+<button class="btn btn-primary" @onclick="updateStorage">Click me</button>
+
+@code {
+    string name { get; set; } = string.Empty;
+
+    private async void updateStorage()
+    {
+        await sessionStorage.SetItemAsync("name", name);
+    }
+
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            name = await sessionStorage.GetItemAsync<string>("name");
+            StateHasChanged();
+        }
+    }
+}
