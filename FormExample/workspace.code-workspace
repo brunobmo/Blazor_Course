@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "BlazorApp"
+		},
+		{
+			"path": "DataAcessLibrary"
+		}
+	],
+	"settings": {}
+}

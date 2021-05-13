@@ -1,0 +1,25 @@
+﻿@inherits LayoutComponentBase
+@inject IJSRuntime JSRuntime
+
+<div class="sidebar">
+    <NavMenu />
+</div>
+
+<div class="main">
+    <div class="top-row px-4">
+        <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
+    </div>
+
+    <div class="content px-4">
+        @Body
+    </div>
+</div>
+
+@code{
+    protected override async Task OnAfterRenderAsync(bool firstRender){ 
+        if (firstRender)
+        {
+            await JSRuntime.InvokeVoidAsync("loadEvent.play");
+        }
+    }
+}
