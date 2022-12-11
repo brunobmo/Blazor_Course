@@ -21,12 +21,12 @@ São ainda disponibilizados os seguintes projetos em .NET ore 3.1 explorados em 
 2. criar uma base de dados e recriar a tabela,
 3. No visual studio, em particular na tab: "SQL Server Object Explorer", estabelecer a ligação, em propriedades copiar a connection string e substituir a string de conexão no ficheiro appsetting.json. 
 
-Uma DataAcess Library pode ser criada através do comando: 
+- Uma DataAcess Library pode ser criada através do comando: 
 ``` dotnet new classlib -o bullDocDBAcess ```
-O Dapper pode ser instalado através do comando:
+- O Dapper pode ser instalado através do comando:
 ``` dotnet add package Dapper --version 2.0.90 ```
-Dependências necessárias
-1.Extension Package:
+- Dependências necessárias
+1. Extension Package:
  ``` dotnet add package Microsoft.Extensions.Configuration --version 5.0.0```
 2. Data Client Package
 ``` dotnet add package System.Data.SqlClient --version 4.8.2 ```
