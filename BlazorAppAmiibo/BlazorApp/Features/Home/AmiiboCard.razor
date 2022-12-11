@@ -1,0 +1,14 @@
+<div class="card shadow" style="width: 18rem;">
+    <img src="@amiibo.Image" class="card-img-top" alt="@amiibo.Name">
+        <div class="card-body">
+            <h5 class="card-title">@amiibo.Name</h5>
+            <h6 class="card-subtitle mb-3 text-muted">
+                <span class="oi oi-map-marker"></span>
+                @amiibo.AmiiboSeries
+            </h6>
+        </div>
+</div>
+@code {
+    [Parameter, EditorRequired]
+    public Amiibo amiibo { get; set; } = default!;
+}

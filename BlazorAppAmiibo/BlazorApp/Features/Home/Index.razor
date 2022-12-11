@@ -1,0 +1,31 @@
+﻿@page "/"
+@inject HttpClient Http  
+
+@if (_amiibos == null)                      
+{
+    <p>Loading amiibos...</p>
+}
+else
+{
+    <div class="grid">
+        @foreach (var amiibo in _amiibos)    
+        {
+            <AmiiboCard amiibo="amiibo" />
+        }
+    </div>
+}
+
+@code{
+    private IEnumerable<Amiibo>? _amiibos;
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            _amiibos = await Http.GetFromJsonAsync <IEnumerable<Amiibo>>("http://localhost:5266/amiibos/amiiboData.json");
+        }
+        catch (HttpRequestException ex)                          
+        {
+            Console.WriteLine($"There was a problem loading amiibos data: {ex.Message}");
+        }
+    }
+}
