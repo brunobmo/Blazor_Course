@@ -1,0 +1,14 @@
+[
+    {
+      "id": 1,
+      "name": "Card 1",
+      "description": "Card 1 description",
+      "image": "https://static.vecteezy.com/system/resources/previews/000/595/201/original/community-people-care-logo-and-symbols-vector.jpg"
+    },
+    {
+    "id": 2,
+    "name": "Card 2",
+    "description": "Card 2 description",
+    "image": "https://s3.amazonaws.com/thumbnails.venngage.com/template/537555f5-d940-45bd-97bb-5b65b018b2f2.png"
+    }
+  ]
