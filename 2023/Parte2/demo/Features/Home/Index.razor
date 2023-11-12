@@ -1,0 +1,53 @@
+﻿@page "/"
+@inject HttpClient Http
+@inject NavigationManager NavigationManager;
+@using DataLayer
+
+@inject ICardRepository _db
+
+<PageTitle>Index</PageTitle>
+
+@if (_cards == null)
+{
+    <p>Loading cards...</p>
+}
+else
+{
+    <div class="grid">
+        @foreach (var card in _cards)
+        {
+            <div class="card shadow" style="width: 18rem;">
+                <img src="@card.Image" class="card-img-top" alt="@card.Name">
+                <div class="card-body">
+                    <h5 class="card-title">@card.Name</h5>
+                    <h6 class="card-subtitle mb-3 text-muted">
+                        <span class="oi oi-map-marker"></span>
+                        @card.Name
+                    </h6>
+                    <div class="d-flex justify-content-between">
+                        <span>
+                            <span class="oi oi-clock mr-2"></span>
+                            @card.Description
+                        </span>
+                        <span>
+                            <span class="oi oi-infinity mr-2"></span>
+                            @card.Description
+                        </span>
+                    </div>
+                    <button class="btn btn-primary" title="View">
+                        <i class="bi bi-binoculars">View</i>
+                    </button>
+                </div>
+            </div>
+        }
+    </div>
+}
+
+
+@code {
+    private List<DataLayer.CardModel> _cards;
+    protected override async Task OnInitializedAsync()
+    {
+        _cards = await _db.FindAll();
+    }
+}

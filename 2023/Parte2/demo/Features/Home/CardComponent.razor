@@ -1,0 +1,14 @@
+<div class="card shadow" style="width: 18rem;">
+   <img src="@card.Image" class="card-img-top" alt="@card.Name">
+       <div class="card-body">
+         <h5 class="card-title">@card.Name</h5>
+          <h6 class="card-subtitle mb-3 text-muted">
+           <span class="oi oi-map-marker"></span>
+              @card.Name
+          </h6>
+    </div>
+</div>
+@code {
+  [Parameter, EditorRequired]
+   public Card card { get; set; } = default!;
+}

@@ -1,0 +1,47 @@
+﻿@page "/fetchdata"
+@using DataLayer
+
+@inject ICardRepository _db
+
+<PageTitle>Cards List</PageTitle>
+
+<h1>Cards List</h1>
+
+<p>This component demonstrates fetching data from a database.</p>
+
+@if (cards == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>name</th>
+                <th>description</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var card in cards)
+            {
+                <tr>
+                    <td>@card.Id</td>
+                    <td>@card.Name</td>
+                    <td>@card.Description</td>
+                </tr>
+            }
+            
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<DataLayer.CardModel> cards;
+
+    protected override async Task OnInitializedAsync()
+    {
+        cards = await _db.FindAll();
+    }
+}
