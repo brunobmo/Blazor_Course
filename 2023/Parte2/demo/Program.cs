@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using demo.Data;
+using demo;
 using DataLayer;
 
 var builder = WebApplication.CreateBuilder(args);
